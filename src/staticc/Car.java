@@ -5,6 +5,8 @@ public class Car {
     int yearProduction;
     boolean isBroken;
     String state= "Show what change";
+    int speed;
+    int wheel;
     int num;
     Car(String nameOfModel, int yearProduction, boolean isBroken){
         this.nameOfModel = nameOfModel;
